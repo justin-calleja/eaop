@@ -1,0 +1,14 @@
+> See whether eaopcore:get_send_msg/1 can be deleted.
+
+> Find out which functions each module should export and export them, removing the -compile(export_all).
+
+> The transformations taking place are now defined and not expected to change. Write tests to guard against regressions in future changes. Tests which compare the generated abstract forms with the expected abstract forms are ok.
+
+> Add a description to each module.
+
+> Add a -spec to all functions.
+
+> Run dialyzer on project.
+
+> Implement args, within, not_within, spawned, registered, trap_exit, (and maybe visibility).
+

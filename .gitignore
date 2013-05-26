@@ -1,5 +1,9 @@
+*.swp
 .eunit
 deps
 *.o
 *.beam
 *.plt
+ebin
+doc
+.vim
